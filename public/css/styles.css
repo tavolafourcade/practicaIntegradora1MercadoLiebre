@@ -4,10 +4,47 @@
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  background-color: #ebebeb;
+}
+
 main {
   /* width: 90%; */
   margin: auto;
-  background-color: #ebebeb;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  margin-left: 20px;
+}
+
+.placeholder {
+  margin-left: 20px;
+}
+
+.search-icon {
+  background-color: white;
+  padding: 1px;
+  border: solid 1px black;
+  border-radius: 2px;
+}
+
+.compra-cuenta {
+  text-align: center;
+  margin: 10px auto;
+}
+
+.compra-cuenta a {
+  font-size: 12px;
+}
+
+.site {
+  display: none;
+}
+
+.site li a {
+  color: black;
 }
 
 .article {
@@ -18,6 +55,22 @@ main {
 .description {
   border-top: solid 1px #ebebeb;
   background-color: white;
+  padding: 15px;
+}
+
+.truck {
+  padding: 10px;
+  color: #39b54a;
+  border: solid 1px green;
+  border-radius: 50%;
+}
+
+.discount {
+  color: #39b54a;
+}
+
+.product-name {
+  display: none;
 }
 
 header {
@@ -50,25 +103,11 @@ h5 {
   font-size: 16px;
 }
 
-.logo {
-  width: 150px;
-  height: auto;
-  margin-left: 20px;
-}
-
-.placeholder {
-  margin-left: 20px;
-}
-
-.compra-cuenta {
-  text-align: center;
-}
-
 .burger-menu {
   background-color: #1259c3;
   width: 50px;
   border-radius: 5px;
-  margin: auto;
+  margin: 20px auto 0px;
 }
 
 .burger {
@@ -102,4 +141,31 @@ footer section h2 {
 
 footer section p {
   line-height: 20px;
+}
+
+/***********************/
+/***Disenio Adaptativo**/
+/***********************/
+
+@media (min-width: 576px) {
+  .product-name {
+    display: unset;
+  }
+  .article {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+
+  .site {
+    display: unset;
+  }
+
+  .site li {
+    padding-left: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1280px) {
 }
