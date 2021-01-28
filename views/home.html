@@ -9,16 +9,16 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet"
 href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css ">
+<link rel="stylesheet" href="/css/normalize.css">
   <title>Document</title>
 </head>
 <body>
-  <header>  
-    <div>
+  <header class="main-header">  
+    <div class="main-header-top-bar">
       <img src="./images/logo-mercado-liebre.svg" alt="logo" class="logo">
       <div class="placeholder">
         <input type="search" placeholder="Buscar productos, marcas...">
-        <div class="fa fa-search search-icon">
-          
+        <div class="fa fa-search search-icon"> 
         </div>
         
       </div>
@@ -26,27 +26,33 @@ href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.cs
         <li class="fa fa-hand-holding-usd"></li>
         <a>Compra en cuotas y sin tarjeta de crédito</a>
       </div>
-      
-      <ul class="site">
-        <li> <a href="#">Ofertas</a></li>
-        <li> <a href="#">Tiendas Oficiales</a></li>
-        <li> <a href="#">Vender</a></li>
-        <li> <a href="#">Ayuda</a></li>
-        <li> <a href="#">Crea tu cuenta</a><i class="far fa-id-card"></i></li>
-        <li> <a href="#">Ingresa</a><i class="fas fa-sign-in-alt"></i></li>
-        <li> <a href="#">Mis compras</a><i class="fas fa-shopping-basket"></i></li>
-      </ul>
-   </div>
-
+    </div>
     <div class="burger-menu">
       <i class="fa fa-bars burger fa-2x"></i>
     </div>
 
+    <nav class="main-navbar">
+      <ul class="left-navbar">
+        <li> <a href="#">Ofertas</a></li>
+        <li> <a href="#">Tiendas Oficiales</a></li>
+        <li> <a href="#">Vender</a></li>
+        <li> <a href="#">Ayuda</a></li>
+      </ul>
+
+      <ul class="right-navbar">
+        <li> <a href="#">Crea tu cuenta</a><i class="far fa-id-card"></i></li>
+        <li> <a href="#">Ingresa</a><i class="fas fa-sign-in-alt"></i></li>
+        <li> <a href="#">Mis compras</a><i class="fas fa-shopping-basket"></i></li>
+      </ul>
+    </nav>
   </header>
   <main>
     <section>
+      <img src="./images/img-home-banner.jpg" alt="banner">
+    </section>
+    <section>
       <h2>Basado en tu última visita</h2>
-      <div class="article">
+      <article class="article">
         <img src="./images/img-cafetera-moulinex.jpg" alt="img-cafetera-moulinex">
         <div class="description">
           <i class="fas fa-truck truck"></i>
@@ -54,10 +60,9 @@ href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.cs
           <h5 class="discount">40% off</h5>
           <h5 class="product-name">Cafetera Moulinex</h5>
         </div>
-        
-      </div>
+      </article>
 
-      <div class="article">
+      <article class="article">
         <img src="./images/img-macbook-pro-2019.jpg" alt="image de MacBook">
         <div class="description">
           <i class="fas fa-truck truck"></i>
@@ -66,9 +71,9 @@ href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.cs
           <h5 class="product-name">Macbook Pro 2019</h5>
         </div>
         
-      </div>
+      </article>
 
-      <div class="article">
+      <article class="article">
         <img src="./images/img-samsung-galaxy-s10.jpg" alt="imagen Samsung Galaxy S10">
         <div class="description">
           <i class="fas fa-truck truck"></i>
@@ -77,9 +82,9 @@ href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.cs
           <h5 class="product-name">Samsung Galaxy S10</h5>
         </div>
         
-      </div>
+      </article>
 
-      <div class="article">
+      <article class="article">
         <img src="./images/img-tv-samsung-smart.jpg" alt="img-tv-samsung-smart">
         <div class="description">
           <i class="fas fa-truck truck"></i>
@@ -88,12 +93,12 @@ href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.cs
           <h5 class="product-name">SmartTv Samsung 43"</h5>
         </div>
         
-      </div>
+      </article>
     </section>
 
     <section>
       <h2>Ofertas</h2>
-      <div class="article">
+      <article class="article">
         <img src="./images/img-cafetera-moulinex.jpg" alt="img-cafetera-moulinex">
         <div class="description">
           <i class="fas fa-truck truck"></i>
@@ -102,9 +107,9 @@ href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.cs
           <h5 class="product-name">Cafetera Moulinex</h5>
         </div>
         
-      </div>
+      </article>
 
-      <div class="article">
+      <article class="article">
         <img src="./images/img-macbook-pro-2019.jpg" alt="image de MacBook">
         <div class="description">
           <i class="fas fa-truck truck"></i>
@@ -113,9 +118,9 @@ href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.cs
           <h5 class="product-name">Macbook Pro 2019</h5>
         </div>
         
-      </div>
+      </article>
 
-      <div class="article">
+      <article class="article">
         <img src="./images/img-samsung-galaxy-s10.jpg" alt="imagen Samsung Galaxy S10">
         <div class="description">
           <i class="fas fa-truck truck"></i>
@@ -124,9 +129,9 @@ href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.cs
           <h5 class="product-name">Samsung Galaxy S10</h5>
         </div>
         
-      </div>
+      </article>
 
-      <div class="article">
+      <article class="article">
         <img src="./images/img-tv-samsung-smart.jpg" alt="img-tv-samsung-smart">
         <div class="description">
           <i class="fas fa-truck truck"></i>
@@ -134,7 +139,7 @@ href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.cs
           <h5 class="discount">5% off</h5>
           <h5 class="product-name">SmartTv Samsung 43"</h5>
         </div>
-      </div>
+      </article>
     </section>
 
   </main>
