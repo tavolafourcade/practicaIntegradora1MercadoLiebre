@@ -5,67 +5,107 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Registro</title>
   <link rel="stylesheet" href="/css/register.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css ">
 </head>
 <body>
   
-  <h1>Registro</h1>
-  <form action="" method="">
-    <div>
-      <input class="register-input" type="text" name="nombreApellido" placeholder="Nombre y apellido">
+  <header class="main-header">  
+    <div class="main-header-top-bar">
+      <img src="./images/logo-mercado-liebre.svg" alt="logo" class="logo">
+      <div class="placeholder">
+        <input type="search" placeholder="Buscar productos, marcas...">
+        <div class="fa fa-search search-icon"> 
+        </div>
+        
+      </div>
+      <div class="compra-cuenta">
+        <li class="fa fa-hand-holding-usd"></li>
+        <a>Compra en cuotas y sin tarjeta de crédito</a>
+      </div>
+    </div>
+    <div class="burger-menu">
+      <i class="fa fa-bars burger fa-2x"></i>
     </div>
 
-    <div>
-      <input class="register-input" type="text" name="nombreUsuario" placeholder="Nombre de usuario">
-    </div>
+    <nav class="main-navbar">
+      <ul class="left-navbar">
+        <li> <a href="#">Ofertas</a></li>
+        <li> <a href="#">Tiendas Oficiales</a></li>
+        <li> <a href="#">Vender</a></li>
+        <li> <a href="#">Ayuda</a></li>
+      </ul>
 
-    <div>
-      <input class="register-input" type="email" name="email" placeholder="Email">
-    </div>
-
-    <div>
-      <label class="subtitle">Fecha de nacimiento</label>
-      <input class="register-input" type="date" name="fechaNacimiento">
-    </div>
-
-    <div>
-      <input class="register-input" type="texto" name="domicilio" placeholder="Domicilio">
-    </div>
-
-    <div class="user-profile">
-      <label class="subtitle">Perfil del usuario</label>
-
-      <div class="user-profile-buttons">
+      <ul class="right-navbar">
+        <li> <a href="./register.html">Crea tu cuenta</a><i class="far fa-id-card"></i></li>
+        <li> <a href="#">Ingresa</a><i class="fas fa-sign-in-alt"></i></li>
+        <li> <a href="#">Mis compras</a><i class="fas fa-shopping-basket"></i></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Registro</h1>
+    <form action="" method="">
+      <div>
+        <input class="register-input" type="text" name="nombreApellido" placeholder="Nombre y apellido">
+      </div>
+  
+      <div>
+        <input class="register-input" type="text" name="nombreUsuario" placeholder="Nombre de usuario">
+      </div>
+  
+      <div>
+        <input class="register-input" type="email" name="email" placeholder="Email">
+      </div>
+  
+      <div>
+        <label class="subtitle">Fecha de nacimiento</label>
+        <input class="register-input" type="date" name="fechaNacimiento">
+      </div>
+  
+      <div>
+        <input class="register-input" type="texto" name="domicilio" placeholder="Domicilio">
+      </div>
+  
+      <div class="user-profile">
+        <label class="subtitle">Perfil del usuario</label>
+  
+        <div class="user-profile-buttons">
+          <label>
+            <input type="radio" name="perfilUsuario">Comprador
+          </label>
+          <label>
+            <input type="radio" name="perfilUsuario">Vendedor
+          </label>
+        </div>
+        
+      </div>
+  
+      <div class="checkbox">
+        <label class="subtitle">Intereses</label>
         <label>
-          <input type="radio" name="perfilUsuario">Comprador
+          <input type="checkbox" name="intereses">Electro
         </label>
         <label>
-          <input type="radio" name="perfilUsuario">Vendedor
+          <input type="checkbox" name="intereses">Moda
+        </label>
+        <label>
+          <input type="checkbox" name="intereses">Hogar
+        </label>
+        <label>
+          <input type="checkbox" name="intereses">Juguetería
+        </label>
+        <label>
+          <input type="checkbox" name="intereses">Vida Sana
         </label>
       </div>
       
-    </div>
-
-    <div class="checkbox">
-      <label class="subtitle">Intereses</label>
-      <label>
-        <input type="checkbox" name="intereses">Electro
-      </label>
-      <label>
-        <input type="checkbox" name="intereses">Moda
-      </label>
-      <label>
-        <input type="checkbox" name="intereses">Hogar
-      </label>
-      <label>
-        <input type="checkbox" name="intereses">Juguetería
-      </label>
-      <label>
-        <input type="checkbox" name="intereses">Vida Sana
-      </label>
-    </div>
-    
-    <button>Registrarme</button>
-  </form>
+      <button>Registrarme</button>
+    </form>
+  </main>
+  
   
 </body>
 </html>

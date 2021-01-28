@@ -213,8 +213,7 @@ footer section p {
   }
 
   .logo {
-    min-width: 20%;
-    max-width: 50%;
+    max-width: 30%;
     margin: 0;
     padding: 10px;
   }
