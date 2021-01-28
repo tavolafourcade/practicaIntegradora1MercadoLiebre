@@ -179,6 +179,11 @@ button {
   background: #1259c3;
   color: white;
   padding: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0022aa;
 }
 
 /***********************/
@@ -205,6 +210,10 @@ footer section h2 {
 
 footer section p {
   line-height: 20px;
+}
+
+.fas:hover {
+  color: #03264c;
 }
 
 @media (min-width: 576px) {
@@ -263,5 +272,14 @@ footer section p {
 @media (min-width: 1280px) {
   button {
     width: 26%;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer div {
+    display: flex;
+    flex-direction: row;
   }
 }

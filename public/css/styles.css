@@ -94,6 +94,10 @@ section h2 {
   position: relative;
 }
 
+.article:hover {
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
 .description {
   border-top: solid 1px #ebebeb;
   background-color: white;
@@ -119,10 +123,14 @@ section h2 {
 }
 
 .product-name {
-  display: unset;
+  display: none;
   margin-top: 20px;
   width: 100%;
   color: #666;
+}
+
+.description:hover .product-name {
+  display: unset;
 }
 
 header {
@@ -198,6 +206,10 @@ footer section p {
   line-height: 20px;
 }
 
+.fas:hover {
+  color: #03264c;
+}
+
 /***********************/
 /***Disenio Adaptativo**/
 /***********************/
@@ -226,12 +238,11 @@ footer section p {
     margin: 0;
     padding: 10px;
   }
-  .product-name {
-    display: unset;
-  }
+  /* .product-name {
+    display: none;
+  } */
 
   .article {
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
     width: 320px;
     margin: 0px auto 30px;
   }
@@ -298,5 +309,15 @@ footer section p {
 
   .right-navbar li a {
     margin-right: 5px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer div {
+    display: flex;
+    flex-direction: row;
   }
 }
