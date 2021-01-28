@@ -20,6 +20,10 @@ section {
   flex-wrap: wrap;
 }
 
+.products-displayed {
+  padding: 0 2%;
+}
+
 section h2 {
   width: 100%;
   margin: 20px;
@@ -105,7 +109,7 @@ section h2 {
   border: solid 1px green;
   border-radius: 50%;
   position: absolute;
-  top: 310px;
+  top: 495px;
   right: 15px;
 }
 
@@ -197,7 +201,7 @@ footer section p {
 
 @media (min-width: 576px) {
   section h2 {
-    margin: 30px;
+    margin: 20px;
   }
 
   .main-header-top-bar {
@@ -262,12 +266,26 @@ footer section p {
   .compra-cuenta {
     margin: 0;
   }
+
+  .truck {
+    padding: 5px;
+    color: #39b54a;
+    border: solid 1px green;
+    border-radius: 50%;
+    position: absolute;
+    top: 310px;
+    right: 15px;
+  }
 }
 
 @media (min-width: 768px) {
 }
 
 @media (min-width: 1280px) {
+  section h2 {
+    margin: 30px 10px;
+  }
+
   header {
     padding: 40px;
   }

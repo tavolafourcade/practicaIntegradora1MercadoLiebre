@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ebebeb;
+}
+
+h1 {
+  color: #03264c;
+  display: flex;
+  margin: 20px auto;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+}
+
+form div {
+  margin: 15px auto;
+}
+
+form div input {
+  width: 320px;
+  border-radius: 2px;
+  border: 0px;
+}
+
+.register-input {
+  padding: 10px;
+}
+.subtitle {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.user-profile {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.user-profile-buttons {
+  display: flex;
+}
+
+.user-profile-buttons label {
+  display: block;
+  padding-left: 15px;
+  text-indent: -15px;
+  margin-right: 60px;
+}
+
+.user-profile-buttons label input {
+  width: 13px;
+  height: 13px;
+  padding: 0;
+  margin-right: 20px;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+  *overflow: hidden;
+}
+
+.checkbox label {
+  display: block;
+  padding-left: 15px;
+  text-indent: -15px;
+  margin-bottom: 15px;
+}
+
+.checkbox label input {
+  width: 13px;
+  height: 13px;
+  padding: 0;
+  margin-right: 20px;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+  *overflow: hidden;
+}
+
+button {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  border-radius: 2px;
+  border: solid 1px #03264c;
+  background: #03264c;
+  color: #eac926;
+  padding: 8px;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    margin: 50px auto;
+  }
+
+  .user-profile {
+    margin: 15px auto;
+    width: 340px;
+  }
+
+  button {
+    width: 30%;
+  }
+}
+
+@media (min-width: 1280px) {
+  button {
+    width: 20%;
+  }
+}
