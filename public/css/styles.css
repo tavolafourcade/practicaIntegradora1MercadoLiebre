@@ -109,7 +109,7 @@ section h2 {
   border: solid 1px green;
   border-radius: 50%;
   position: absolute;
-  top: 495px;
+  top: 315px;
   right: 15px;
 }
 
@@ -174,11 +174,14 @@ h5 {
 /***********************/
 
 footer {
-  text-align: center;
-  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+
+  /* padding: 30px 20px; */
 }
 footer section {
   text-align: center;
+  justify-content: center;
   margin: 20px auto;
 }
 

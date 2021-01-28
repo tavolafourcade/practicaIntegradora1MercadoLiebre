@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-body {
+main {
   background-color: #ebebeb;
 }
 
@@ -175,10 +175,36 @@ button {
   justify-content: center;
   margin: 20px auto;
   border-radius: 2px;
-  border: solid 1px#1259c3;
+  border: solid 1px #03264c;
   background: #1259c3;
   color: white;
   padding: 8px;
+}
+
+/***********************/
+/*Estilos Pie de Pagina*/
+/***********************/
+
+footer {
+  text-align: center;
+  padding: 30px 20px;
+}
+footer section {
+  text-align: center;
+  margin: 20px auto;
+}
+
+footer section i {
+  color: #1259c3;
+  margin-bottom: 10px;
+}
+
+footer section h2 {
+  font-weight: 700;
+}
+
+footer section p {
+  line-height: 20px;
 }
 
 @media (min-width: 576px) {
@@ -232,14 +258,10 @@ button {
   h1 {
     margin: 50px auto;
   }
-
-  button {
-    width: 30%;
-  }
 }
 
 @media (min-width: 1280px) {
   button {
-    width: 20%;
+    width: 26%;
   }
 }
