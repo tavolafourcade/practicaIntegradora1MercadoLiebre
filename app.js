@@ -9,7 +9,7 @@ const publicPath = path.resolve(__dirname, './public');
 //Haciendo uso de archivos estáticos
 app.use(express.static(publicPath));
 
-app.listen(3030, ()=>{
+app.listen(process.env.PORT || 3030, ()=>{
   console.log('Servidor corriendo en puerto 3030')
 })
 
