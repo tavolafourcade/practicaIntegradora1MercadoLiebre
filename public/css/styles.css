@@ -118,7 +118,7 @@ section h2 {
   border: solid 1px green;
   border-radius: 50%;
   position: absolute;
-  top: 315px;
+  top: -15px;
   right: 15px;
 }
 
@@ -291,7 +291,7 @@ footer section p {
     border: solid 1px green;
     border-radius: 50%;
 
-    top: 310px;
+    top: -15px;
     right: 15px;
   }
 }
